@@ -1,0 +1,30 @@
+@import 'general.css';
+
+.dialogo-estilo{
+    border: 5px solid white;
+    width: fit-content;
+    height: fit-content;
+    padding: 50px 10px 10px 10px;
+    border-radius: 5px;
+    background-size: 10%;
+    background-clip: border-box;
+    background-repeat: repeat-x;
+    background-position: left center;
+    font-family: OpenSans-Regular;
+    padding: 3%;
+}
+
+.dialog-text{
+    font-size: 1rem;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 0.2rem;
+    color: var(--secondary-color-text);
+}
+
+.dialogo-estilo::backdrop{
+    background-color: black;
+    opacity: 0.5;
+}
+
+

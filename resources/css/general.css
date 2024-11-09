@@ -1,0 +1,74 @@
+:root {
+    --success-color:#198754;
+    --success-color-1:#157347;
+    --title-color: #7e7a7c;
+    --background-color:#f0ecee;
+}
+   
+.green-mode{
+    --principal-color: #73EC8B;
+    --secondary-color: #15B392;
+    --secondary-color-1: #c7f7d1;
+    --tertiary-color: #172f1b;
+    --accent-color: #D2FF72;
+    --accent-color-1: white;
+    --shadow-color: #159d30;
+
+    --principal-color-text: white;
+    --secondary-color-text: #354b01;
+    --tertiary-color-text: #148061;
+
+    --gradient: linear-gradient(to right, rgba(180, 255, 21, 0), rgba(180, 255, 21, 1));
+    --icono-slider: url(/resources/img/leaf-solid.svg);
+
+}
+
+.pink-mode {
+    --principal-color: #DD356E;
+    --secondary-color: #b02a58;
+    --secondary-color-1: #f5c2d4;
+    --tertiary-color: #58152c;
+    --accent-color: #FFBBE1;
+    --accent-color-1: white;
+    --shadow-color: #8A0241;
+
+
+    --principal-color-text: white;
+    --secondary-color-text: #650130;
+    --tertiary-color-text: #81013D;
+
+    --gradient: linear-gradient(to right, rgba(230, 168, 203, 0), rgba(230, 168, 203, 1));
+    --icono-slider: url(/resources/img/heart-solid.svg);
+}
+
+
+
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(/resources/font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(/resources/font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Domine-Regular;
+    src: url(/resources/font/Domine-Regular.ttf);
+}
+
+@font-face {
+    font-family: Fraunces-Regular;
+    src: url(/resources/font/Fraunces-Regular.ttf);
+}
+
+.font-poppins-regular{
+    font-family: Poppins-Regular;
+}
+
+.font-opensans-regular{
+    font-family: OpenSans-Regular;
+}
+

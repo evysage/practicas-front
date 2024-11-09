@@ -1,0 +1,36 @@
+.body-cards {
+    background: var(--background-color);
+}
+
+.title-text-cards{
+    letter-spacing: 2rem;
+    color: var(--title-color);
+    font-family: Fraunces-Regular;
+}
+
+.card{
+    width: 10%;
+    height: 10%;
+    padding: 1%;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 0px 10px 1px #7e7a7c;
+    overflow-wrap: anywhere;
+}
+
+
+.card-title{
+    font-family: Domine-Regular;
+    font-weight: bolder;
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
+
+.card-content{
+    font-family: OpenSans-Regular;
+    font-weight: 500;
+    font-size: 0.5rem;
+    letter-spacing: 5px;
+    text-align: center;
+}
+

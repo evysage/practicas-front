@@ -1,0 +1,32 @@
+
+.flex-column {
+    display: flex;
+    flex-flow: column;
+}
+
+.flex-card{
+    display: flex;
+}
+
+
+.container-center{
+    align-items: center;
+    text-align: center;
+}
+
+.auto-center {
+    width: fit-content;
+    height: fit-content;
+    min-width: 40%;
+    margin: auto;
+}
+
+.item{
+display: flex;
+   flex-grow: 1;
+
+}
+.mb-5{
+    margin-bottom: 5%;
+}
+
